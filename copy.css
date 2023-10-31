@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400&family=Lora:wght@500&display=swap');
+
+body {
+  background-color: #c9ddff;
+}
+
+p {
+  font-family: 'Lato', sans-serif;
+  color: #2F4550;
+  font-size: 20px;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 25px;
+}
+
+h1, h2 {
+  font-family: 'Lora', serif;
+  color: #586f7c;
+  width: 500px;
+  margin: 0 auto;
+}
+
+#profile-pic {
+  width: 250px;
+  border-radius: 50%;
+  padding: 20px;
+}
+
+a {
+  color: rgb(50,50,50);
+  text-decoration: none;
+  font-family: 'Lora', serif;
+}
+
+a:hover {
+  color: darkgray;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.container {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.card {
+  background-color: #FDF0DA;
+  border-radius: 10px;
+  padding: 30px;
+  margin: 20px auto;
+  box-shadow: 5px 5px 12px black;
+}
+
+.text-center {
+  text-align: center;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
